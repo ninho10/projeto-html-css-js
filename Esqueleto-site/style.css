@@ -21,7 +21,7 @@ header {
 
 section.banner {
     width: 100%;
-    min-height: 500px;
+    height: 500px;
     background-color: rgb(78, 72, 70);
     text-align: center;
     padding: 90px 0;
