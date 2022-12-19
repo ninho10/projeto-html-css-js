@@ -4,15 +4,37 @@
     box-sizing: border-box;
 }
 
+.cabeca {
+    color:wheat;
+    background-color:black;
+    text-align: center;
+
+}
+
+.jogadores1 {
+    display: inline-flex;
+
+}
+
 @keyframes anim1 {
-    from{background-color: black;}
-    to{background-color: red;}
+    from {
+        background-color: black;
+    }
+
+    to {
+        background-color: red;
+    }
 }
 
 
 @keyframes anim2 {
-    from{background-color: red;}
-    to{background-color: black;}
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: black;
+    }
 }
 
 
@@ -53,4 +75,10 @@ h3 {
     animation-name: anim2;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+}
+
+.final {
+    background-color: #000;
+    height: 30px;
+
 }
