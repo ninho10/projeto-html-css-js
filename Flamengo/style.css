@@ -13,6 +13,7 @@
 
 .jogadores1 {
     display: inline-flex;
+    padding: 3px;
 
 }
 
