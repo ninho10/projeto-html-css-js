@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color:none;
     min-height: 100vh;
 }
 
@@ -23,4 +23,127 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 100px;
+}
+
+nav .menu-icon{
+    cursor: pointer;
+    display: none;
+}
+
+nav .logo a{
+   font-size: 30px; 
+   font-weight: bold;
+   color: blueviolet;
+   text-decoration: none; 
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 15px
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+nav ul button{
+    border: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 20px ;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-bx{
+ width: 40%; 
+}
+
+.text-bx h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.text-bx h1 b{
+    color: coral;
+}
+
+.text-bx p{
+    color:darkviolet;
+    font-weight: 400;
+    margin-top: 20px;   
+}
+
+.text-bx .input-bx{
+    margin: 20px 0;
+    display: flex;
+} 
+
+.text-bx .input-bx input{
+    width: 60%;
+    display: block;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: darkgrey;
+    font-size: 16px;
+}
+
+.text-bx .input-bx input::placeholder{
+    color: darkgray;
+}
+
+.text-bx .input-bx button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.medias-socias{
+    margin-top: 30px;
+}
+
+.medias-socias a{
+    text-decoration: none;
+}
+
+.medias-socias i{
+    font-size: 23px;
+    margin: 0 3px;
+    color: aliceblue;
+    background-color: blueviolet;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.img-bx{
+    width: 60%;
+}
+
+.img-box img{
+    width: 100%;
 }
