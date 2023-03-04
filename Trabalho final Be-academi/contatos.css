@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+body {
+    background-color: #27282d;
+}
+
+
+.form {
+    text-align: center;
+    color: gold;
+    margin: 30px;
+}
+
+
+.form input[type=empresa],
+.form input[type=telefone],
+.form input[type=text],
+.form input[type=email] {
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+.form textarea {
+    padding: 10px;
+    resize: vertical;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 120px;
+}
+
+.form input[type=submit] {
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(52, 83, 83);
+    height: 35px;
+    border: 0:
+}
