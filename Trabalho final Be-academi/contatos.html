@@ -11,12 +11,17 @@
     <div class="form">
       <h1>" @DIGITAL.COM "</h1>
 
-      <input type="text" name="nome" placeholder=" Seu nome..." />
-      <input type="email" name="nome" placeholder=" Seu email..." />
-      <input type="telefone" name="nome" placeholder=" Seu numero..." />
-      <input type="empresa" name="nome" placeholder=" nome da empresa..." />
-      <textarea placeholder="Como podemos ajudar ?"></textarea>
+      <form action="https://formsubmit.co/paulo.trabalho10@gmail.com" method="POST">
+      <input type="text" name="nome" placeholder=" Seu nome..." required />
+      <input type="email" name="email" placeholder=" Seu email..." required  />
+      <input type="telefone" name="telefone" placeholder=" Seu numero..." required  />
+      <input type="empresa" name="nome" placeholder=" nome da empresa..." required  />
+      <textarea name="mensagem"placeholder="Como podemos ajudar ?"></textarea>
       <input type="submit" value="Enviar" />
+      <input type="hidden" nome="_subject" value="Novo Contato">
+      <input type="text" nome="_honey" style="display: none">
+      <input type="hidden" nome="_captcha" value="false">
+    </form>
     </div>
   </body>
 </html>

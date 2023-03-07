@@ -30,11 +30,9 @@ nav .menu-icon {
     display: none;
 }
 
-nav .logo a {
-    font-size: 30px;
-    font-weight: bold;
-    color: blueviolet;
-    text-decoration: none;
+nav .logo{
+   margin: 0;
+    
 }
 
 nav ul {
@@ -173,4 +171,56 @@ main {
 
 .img-box img {
     width: 100%;
+}
+
+@media (max-width:970px){
+    nav .menu-icon{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 60%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.3s ease-in;
+        background-color: blueviolet;
+
+    }
+    nav ul.active{
+        transform: translateX(0);
+    }
+
+    nav ul li{
+        padding: 10px;
+    }
+
+    nav ul li a{
+        font-size: 18px;
+        color: aliceblue;
+    }
+    nav ul button{
+        background-color: darkorange;
+        font-size: 18px;
+        margin: 10px;
+    }
+    main{
+        flex-direction: column;
+    }
+    .text-bx
+    .img-bx{
+        width: 100%;
+        text-align: center;
+    }
+    .text-bx{
+        margin-bottom: 40px;
+    }
+    .text-bx .input-bx{
+        justify-content: center;
+    }
 }
