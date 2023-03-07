@@ -8,23 +8,26 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <title>webSite</title>
   </head>
   <body>
-    <dir class="container">
+    <div class="container">
       <!--nav-->
       <nav>
         <div class="logo">
           <img src="imagem/logo01.png" alt="" />
         </div>
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="home.html">Home</a></li>
           <li><a href="#">Serviços</a></li>
           <li><a href="contatos.html">Contatos</a></li>
           <li><a href="#">Login</a></li>
           <button>Cadastrar</button>
         </ul>
+
         <div class="menu-icon">
           <img src="imagem/menu.png" alt="" />
         </div>
@@ -42,7 +45,7 @@
             que cabe no seu bolso.
           </p>
           <div class="input-bx">
-            <input type="email" placeholder="Endereço de email" />
+            <input v-model="email" placeholder="Endereço de email" />
             <button>Enviar</button>
           </div>
 
@@ -56,10 +59,10 @@
         </div>
 
         <div class="img-bx">
-          <img src="imagem/foto3.png" alt="" />
+          <img src="imagem/foto2.jpg" alt="" />
         </div>
       </main>
-    </dir>
+    </div>
 
     <script src="script.js"></script>
   </body>
