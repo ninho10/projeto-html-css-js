@@ -8,8 +8,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-
     <link rel="stylesheet" href="style.css" />
     <title>webSite</title>
   </head>
@@ -44,10 +42,10 @@
             para o mundo. deixe seu email entraremos em contato com uma proposta
             que cabe no seu bolso.
           </p>
-          <div class="input-bx">
-            <input v-model="email" placeholder="Endereço de email" />
+          <form class="input-bx">
+            <input type="email" placeholder="Endereço de email" />
             <button>Enviar</button>
-          </div>
+          </form>
 
           <div class="medias-socias">
             <a href="#"> <i class="fa fa-instagram"></i> </a>
@@ -59,7 +57,7 @@
         </div>
 
         <div class="img-bx">
-          <img src="imagem/foto2.jpg" alt="" />
+          <img src="imagem/foto3.png" alt="" />
         </div>
       </main>
     </div>

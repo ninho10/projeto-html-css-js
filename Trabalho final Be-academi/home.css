@@ -1,3 +1,16 @@
 .logoHome {
     text-align: center
 }
+
+.enviar, .apagar{
+    border: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
