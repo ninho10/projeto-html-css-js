@@ -5,15 +5,34 @@
     font-family: 'Lato', sans-serif;
 }
 
+h1{
+    font-size: 50px;
+    margin: 40px;
+   
+    
+}
 
 body {
-    background-color: #27282d;
+    background-image: url(./imagem/fotoUniverso1.webp);
+}
+
+@keyframes anim1 {
+    from {
+        color: gray;
+    }
+
+    to {
+        color: rgb(38, 36, 36);
+    }
 }
 
 
 .form {
     text-align: center;
-    color: gold;
+    color: gray;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     margin: 30px;
 }
 
@@ -56,5 +75,5 @@ body {
     color: white;
     background-color: rgb(52, 83, 83);
     height: 35px;
-    border: 0:
+    border: 0;
 }
