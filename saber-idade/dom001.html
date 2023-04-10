@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt, br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+
+      body{
+        background-image: url(fundo-site.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+
+      .fora{
+        background:rgba(98, 255, 0, 0.414);
+        margin-top: 20%;
+        margin-left: 35%;
+        margin-top: 20%;
+        margin-left: 35%;
+        height: 180px;
+        width: 300px;
+        border-radius: 20px;
+      }
+
+
+      .maiorIdade{
+          background:rgba(0, 0, 255, 0.219); 
+          margin: 10px;
+          border-radius: 10px;
+          text-align: center;
+          
+      }
+
+
+    </style>
+  </head>
+  <body>
+      <div class="fora">
+        <h1>**Saber sua idade**</h1>
+      <div class="maiorIdade">
+        
+        Seu ano de nascimento ? <br>
+        <input id="n1" type="number"/>
+        <button onclick="maiorIdade()">Enviar</button>
+        <p>Resutado é  <span></span></p>
+    </div>
+  </div>
+    <script>
+      var n1 = document.querySelector("#n1");
+      var resultado = document.querySelector('span');
+
+      function maiorIdade() {
+        resultado.innerHTML = 2023 - parseInt(n1.value) ;
+      }
+    </script>
+  </body>
+</html>
+
